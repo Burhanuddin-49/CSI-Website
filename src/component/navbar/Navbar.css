@@ -1,0 +1,11 @@
+.logo_csi {
+  width: 70px;
+  height: 70px;
+}
+
+@media screen and (max-width: 576px) {
+  .logo_csi {
+    width: 52px;
+    height: 52px;
+  }
+}
