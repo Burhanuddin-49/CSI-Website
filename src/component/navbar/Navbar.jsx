@@ -37,12 +37,9 @@ const Navbar = () => {
           <li className="nav-item">
             <a className="nav-link" href="https://acunetix10.netlify.app/">
               ACUNETIX 10.0
+              <span className="sr-only">(current)</span>
+              <span className="new-bounce">New</span>
             </a>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/about">
-              About
-            </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="#">
@@ -50,8 +47,18 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
+            <Link className="nav-link" to="/blog">
+              Blogs
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="#">
               Members
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/about">
+              About
             </Link>
           </li>
           <li className="nav-item">
