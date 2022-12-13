@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark    ">
       <Link className="navbar-brand" href="/">
         <img className="logo_csi" src={logo} alt="" />
-        <span style={{ fontSize: "17px" }}> COMPUTER SOCIETY OF INDIA</span>
+        <span className="logo-title"> COMPUTER SOCIETY OF INDIA</span>
       </Link>
       <button
         className="navbar-toggler"
@@ -69,7 +69,7 @@ const Navbar = () => {
         </ul>
         <ul className="navbar-nav d-flex flex-row r-0">
           <li className="nav-item me-3 me-lg-0">
-            <Link className="nav-link" href="#!">
+            <Link className="nav-link" href="https://www.instagram.com/csidit/">
               <InstagramIcon />
             </Link>
           </li>
