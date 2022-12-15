@@ -35,14 +35,18 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            <a className="nav-link" href="https://acunetix10.netlify.app/">
+            <a
+              className="nav-link"
+              target="_blank"
+              href="https://acunetix10.netlify.app/"
+            >
               ACUNETIX 10.0
               <span className="sr-only">(current)</span>
               <span className="new-bounce">New</span>
             </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="#">
+            <Link className="nav-link" to="/event">
               Events
             </Link>
           </li>
@@ -52,7 +56,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="#">
+            <Link className="nav-link" to="/member">
               Members
             </Link>
           </li>
@@ -62,21 +66,29 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="#">
+            <Link className="nav-link" to="/contact">
               Contact us
             </Link>
           </li>
         </ul>
         <ul className="navbar-nav d-flex flex-row r-0">
           <li className="nav-item me-3 me-lg-0">
-            <Link className="nav-link" href="https://www.instagram.com/csidit/">
+            <a
+              className="nav-link"
+              target="_blank"
+              href="https://www.instagram.com/csidit/"
+            >
               <InstagramIcon />
-            </Link>
+            </a>
           </li>
           <li className="nav-item me-3 me-lg-0">
-            <Link className="nav-link" href="#!">
+            <a
+              className="nav-link"
+              target="_blank"
+              href="https://www.linkedin.com/company/computer-society-of-india-dit/mycompany/"
+            >
               <LinkedInIcon />
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

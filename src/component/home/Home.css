@@ -1,1 +1,24 @@
+.home-link {
+  display: inline-block;
+  /* text-transform: none; */
+  color: #555;
+  background: #fff;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 1%;
+}
 
+p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .home {
+        margin-top: 15px;
+    }
+
+    .right {
+        margin-top: 15px !important;
+    }
+}
