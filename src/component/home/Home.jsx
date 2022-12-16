@@ -1,3 +1,4 @@
+import { Devices } from "@mui/icons-material";
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
@@ -10,7 +11,7 @@ const Home = () => {
       <h3 className="text-center mb-5">
         Welcome to Computer Society of India, DIT Chapter
       </h3>
-      <div className="row">
+      <div className="row firstRow">
         <div className="col-sm-6">
           <div
             id="carouselExampleFade"
@@ -60,7 +61,7 @@ const Home = () => {
               <div className="carousel-item">
                 <div className="d-block w-100" data-interval="4000" alt="...">
                   <h1>CSI Mission</h1>
-                  <p className="slider-p" >
+                  <p className="slider-p">
                     <ul>
                       <li>
                         Facilitate Research, Knowledge Sharing, Learning and
@@ -150,6 +151,60 @@ const Home = () => {
               ></span>
               <span className="sr-only">Next</span>
             </button>
+          </div>
+        </div>
+      </div>
+      <div className="timeline">
+        <div className="Container left-container">
+          <div className="icon">
+            {/* <Devices /> */}
+          </div>
+          <div className="text-box">
+            <h2>Technology Updates</h2>
+            <p>
+              Updates of Latest Technology through Conferences, Lectures,
+              Seminars, Tutorials and Workshops.
+            </p>
+            <span className="left-container-arrow"></span>
+          </div>
+        </div>
+        <div className="Container right-container">
+          <div className="icon">
+            <Devices />
+          </div>
+          <div className="text-box">
+            <h2>Interactive Activities</h2>
+            <p>
+              Project & Paper presentations, Quizzes, Competitions and
+              Exhibitions.
+            </p>
+            <span className="right-container-arrow"></span>
+          </div>
+        </div>
+        <div className="Container left-container">
+          <div className="icon">
+            <Devices />
+          </div>
+          <div className="text-box">
+            <h2>Networking</h2>
+            <p>
+              Ability to connect and interact with distinguished speakers,
+              experts and peers on different technology areas
+            </p>
+            <span className="left-container-arrow"></span>
+          </div>
+        </div>
+        <div className="Container right-container">
+          <div className="icon">
+            <Devices />
+          </div>
+          <div className="text-box">
+            <h2>Training & Certification</h2>
+            <p>
+              Get Appreciation letters /certifications from a nationally
+              recognized professional IT body.
+            </p>
+            <span className="right-container-arrow"></span>
           </div>
         </div>
       </div>
