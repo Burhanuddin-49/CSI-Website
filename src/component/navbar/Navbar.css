@@ -1,3 +1,13 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.NActive {
+  background: #5f7892;
+}
+
 .logo_csi {
   width: 70px;
   height: 70px;
@@ -24,8 +34,12 @@
 }
 
 @keyframes bouncing {
-0% {top: -6px;}
-100% {top: -10px;}
+  0% {
+    top: -6px;
+  }
+  100% {
+    top: -10px;
+  }
 }
 
 @media screen and (max-width: 576px) {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/CSI.png";
 import "./Navbar.css";
@@ -6,8 +6,26 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Navbar = () => {
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 50) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark    ">
+    <nav
+      className={
+        navbar
+          ? "navbar navbar-expand-lg navbar-dark NActive"
+          : "navbar navbar-expand-lg navbar-dark"
+      }
+    >
       <Link className="navbar-brand" href="/">
         <img className="logo_csi" src={logo} alt="" />
         <span className="logo-title"> COMPUTER SOCIETY OF INDIA</span>
