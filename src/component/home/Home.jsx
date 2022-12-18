@@ -61,32 +61,30 @@ const Home = () => {
                 <div className="carousel-item">
                   <div className="d-block w-100" data-interval="4000" alt="...">
                     <h1>CSI Mission</h1>
-                    <p className="slider-p">
-                      <ul>
-                        <li>
-                          Facilitate Research, Knowledge Sharing, Learning and
-                          Career Enhancement among all categories of IT
-                          professionals.
-                        </li>
-                        <li>
-                          Inspire, nurture and assist students to integrate into
-                          the IT communtiy
-                        </li>
-                        <li>
-                          Percolate benefits of IT advancement to all sections
-                          of Indian Society.
-                        </li>
-                        <li>
-                          Professional Development at Individual level and
-                          Career Support.
-                        </li>
-                        <li>
-                          To create a distinguished fraternity of famous IT
-                          industry leaders, brilliant scientists and dedicated
-                          academicians.
-                        </li>
-                      </ul>
-                    </p>
+                    <ul className="list">
+                      <li>
+                        Facilitate Research, Knowledge Sharing, Learning and
+                        Career Enhancement among all categories of IT
+                        professionals.
+                      </li>
+                      <li>
+                        Inspire, nurture and assist students to integrate into
+                        the IT communtiy
+                      </li>
+                      <li>
+                        Percolate benefits of IT advancement to all sections of
+                        Indian Society.
+                      </li>
+                      <li>
+                        Professional Development at Individual level and Career
+                        Support.
+                      </li>
+                      <li>
+                        To create a distinguished fraternity of famous IT
+                        industry leaders, brilliant scientists and dedicated
+                        academicians.
+                      </li>
+                    </ul>
                     <Link className="home-link" to="/about">
                       About More
                     </Link>
@@ -159,19 +157,19 @@ const Home = () => {
         <div className="offer" style={{ background: "#3c618a" }}>
           <h2>What CSI Offers?</h2>
         </div>
-        <div class="wrapper">
-          <div class="center-line">
-            <a href="#" class="scroll-icon">
-              <i class="fas fa-caret-up"></i>
+        <div className="wrapper">
+          <div className="center-line">
+            <a href="#" className="scroll-icon">
+              <i className="fas fa-caret-up"></i>
             </a>
           </div>
-          <div class="row row-1">
+          <div className="row row-1">
             <section>
               <div className="icon">
                 <Devices />
               </div>
-              <div class="details">
-                <span class="title">Technology Updates</span>
+              <div className="details">
+                <span className="title">Technology Updates</span>
               </div>
               <p>
                 Updates of Latest Technology through Conferences, Lectures,
@@ -179,13 +177,13 @@ const Home = () => {
               </p>
             </section>
           </div>
-          <div class="row row-2">
+          <div className="row row-2">
             <section>
               <div className="icon">
                 <Devices />
               </div>
-              <div class="details">
-                <span class="title">Interactive Activities</span>
+              <div className="details">
+                <span className="title">Interactive Activities</span>
               </div>
               <p>
                 Project & Paper presentations, Quizzes, Competitions and
@@ -193,13 +191,13 @@ const Home = () => {
               </p>
             </section>
           </div>
-          <div class="row row-1">
+          <div className="row row-1">
             <section>
               <div className="icon">
                 <Devices />
               </div>
-              <div class="details">
-                <span class="title">Networking</span>
+              <div className="details">
+                <span className="title">Networking</span>
               </div>
               <p>
                 Ability to connect and interact with distinguished speakers,
@@ -207,13 +205,13 @@ const Home = () => {
               </p>
             </section>
           </div>
-          <div class="row row-2">
+          <div className="row row-2">
             <section>
               <div className="icon">
                 <Devices />
               </div>
-              <div class="details">
-                <span class="title">Training & Certification</span>
+              <div className="details">
+                <span className="title">Training & Certification</span>
               </div>
               <p>
                 Get Appreciation letters /certifications from a nationally
