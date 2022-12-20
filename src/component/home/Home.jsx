@@ -1,6 +1,7 @@
 import { Devices } from "@mui/icons-material";
 import React from "react";
 import { Link } from "react-router-dom";
+import EventCard from "./EventCard";
 import "./Home.css";
 
 const Home = () => {
@@ -155,13 +156,10 @@ const Home = () => {
       </div>
       <div className="mt-5 timeline">
         <div className="offer" style={{ background: "#3c618a" }}>
-          <h2>What CSI Offers?</h2>
+          <h1>What CSI Offers?</h1>
         </div>
         <div className="wrapper">
           <div className="center-line">
-            <a href="#" className="scroll-icon">
-              <i className="fas fa-caret-up"></i>
-            </a>
           </div>
           <div className="row row-1">
             <section>
@@ -221,6 +219,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <EventCard />
     </div>
   );
 };
