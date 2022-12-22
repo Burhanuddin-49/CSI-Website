@@ -2,6 +2,7 @@ import { Devices } from "@mui/icons-material";
 import React from "react";
 import { Link } from "react-router-dom";
 import EventCard from "./EventCard";
+import Footer from "./Footer";
 import "./Home.css";
 
 const Home = () => {
@@ -159,8 +160,7 @@ const Home = () => {
           <h1>What CSI Offers?</h1>
         </div>
         <div className="wrapper">
-          <div className="center-line">
-          </div>
+          <div className="center-line"></div>
           <div className="row row-1">
             <section>
               <div className="icon">
@@ -218,8 +218,10 @@ const Home = () => {
             </section>
           </div>
         </div>
+        <div className="free-space"></div>
       </div>
       <EventCard />
+      <Footer />
     </div>
   );
 };

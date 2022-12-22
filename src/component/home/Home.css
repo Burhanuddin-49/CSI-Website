@@ -17,7 +17,6 @@
 
 .offer {
   height: 58x;
-
 }
 
 .offer h1 {
@@ -194,6 +193,13 @@ section:nth-child(4) {
     left: -60px;
   }
 }
+
+.free-space {
+  content: "";
+  height: 10px;
+  margin-bottom: 50px;
+}
+
 @media (max-width: 576px) {
   .home {
     margin-top: 15px;
