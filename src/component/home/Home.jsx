@@ -7,7 +7,7 @@ import Footer from "./Footer";
 import "./Home.css";
 import NumberCounting from "./NumberCounting";
 import h1 from "../../assets/h1.jpg";
-import h2 from "../../assets/h2.jpg";
+// import h2 from "../../assets/h2.jpg";
 import h3 from "../../assets/h3.jpg";
 import h4 from "../../assets/h4.jpg";
 
@@ -121,7 +121,7 @@ const Home = () => {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
-                    src={h1}
+                    src="https://drive.google.com/uc?export=view&id=1HZJKn0GFmsSPb9932WQX8HBJcBw5WF9f"
                     className="d-block w-100"
                     data-interval="2000"
                     alt="..."
@@ -129,7 +129,7 @@ const Home = () => {
                 </div>
                 <div className="carousel-item">
                   <img
-                    src={h2}
+                    src="https://drive.google.com/uc?export=view&id=1OxIadlEK_kkl-5QaDwcqsyb2vaThjf1P"
                     className="d-block w-100"
                     data-interval="2000"
                     alt="..."
@@ -137,7 +137,7 @@ const Home = () => {
                 </div>
                 <div className="carousel-item">
                   <img
-                    src={h3}
+                    src="https://drive.google.com/uc?export=view&id=1Da95bG0xN7i_U7gCPhVE-TIFZsvzZVcm"
                     className="d-block w-100"
                     data-interval="2000"
                     alt="..."
@@ -145,7 +145,15 @@ const Home = () => {
                 </div>
                 <div className="carousel-item">
                   <img
-                    src={h4}
+                    src="https://drive.google.com/uc?export=view&id=1inJGSMmn-ghz4-t0qqfghfj24MuBku4g"
+                    className="d-block w-100"
+                    data-interval="2000"
+                    alt="..."
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src="https://drive.google.com/uc?export=view&id=1n-XITLWCE-PYnNunuoxNRqLfppSw0AFw"
                     className="d-block w-100"
                     data-interval="2000"
                     alt="..."
