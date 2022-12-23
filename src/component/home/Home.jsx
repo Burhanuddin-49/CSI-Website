@@ -6,10 +6,6 @@ import EventCard from "./EventCard";
 import Footer from "./Footer";
 import "./Home.css";
 import NumberCounting from "./NumberCounting";
-import h1 from "../../assets/h1.jpg";
-// import h2 from "../../assets/h2.jpg";
-import h3 from "../../assets/h3.jpg";
-import h4 from "../../assets/h4.jpg";
 
 const Home = () => {
   return (
