@@ -35,13 +35,13 @@ const Footer = () => {
                   <a href="#">
                     <Instagram className="icon-bg" />
                   </a>
-                  <a href="#">
+                  <a target="_blank" href="#">
                     <Facebook className="icon-bg" />
                   </a>
-                  <a href="#">
+                  <a target="_blank" href="#">
                     <LinkedIn className="icon-bg" />
                   </a>
-                  <a href="#">
+                  <a target="_blank" href="#">
                     <Email className="icon-bg" />
                   </a>
                 </div>

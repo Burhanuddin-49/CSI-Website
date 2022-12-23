@@ -4,6 +4,7 @@ import logo from "../../assets/CSI.png";
 import "./Navbar.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Facebook } from "@mui/icons-material";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -106,6 +107,15 @@ const Navbar = () => {
               href="https://www.linkedin.com/company/computer-society-of-india-dit/mycompany/"
             >
               <LinkedInIcon />
+            </a>
+          </li>
+          <li className="nav-item me-3 me-lg-0">
+            <a
+              className="nav-link"
+              target="_blank"
+              href="https://www.facebook.com/csiditofficial/?ref=br_rs"
+            >
+              <Facebook />
             </a>
           </li>
         </ul>

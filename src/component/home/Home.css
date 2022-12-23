@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; */
-  backdrop-filter: blur(30px);
+  /* backdrop-filter: blur(30px); */
   color: #fff;
 }
 
@@ -25,12 +25,8 @@
 }
 
 .home-link {
-  display: inline-block;
-  /* text-transform: none; */
-  background: #fff;
-  font-size: 15px;
-  padding: 10px;
-  border-radius: 30px;
+  display: flex;
+  justify-content: center;
   margin-top: 1%;
 }
 

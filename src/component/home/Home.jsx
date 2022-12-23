@@ -1,4 +1,5 @@
 import { Devices } from "@mui/icons-material";
+import { Button } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import EventCard from "./EventCard";
@@ -31,12 +32,13 @@ const Home = () => {
                       Technology. It was started on 6 March 1965 by few computer
                       professionals.
                     </p>
-                    <Link
-                      className="home-link"
-                      to="/blog"
-                      style={{ width: "60px", textAlign: "center" }}
-                    >
-                      Blog
+                    <Link className="home-link" to="/blog">
+                      <Button
+                        variant="contained"
+                        style={{ background: "#000" }}
+                      >
+                        Blog
+                      </Button>
                     </Link>
                   </div>
                 </div>
@@ -56,7 +58,12 @@ const Home = () => {
                       competition and many more.
                     </p>
                     <Link className="home-link" to="/about">
-                      About More
+                      <Button
+                        variant="contained"
+                        style={{ background: "#000" }}
+                      >
+                        About More
+                      </Button>
                     </Link>
                   </div>
                 </div>
@@ -88,7 +95,12 @@ const Home = () => {
                       </li>
                     </ul>
                     <Link className="home-link" to="/about">
-                      About More
+                      <Button
+                        variant="contained"
+                        style={{ background: "#000" }}
+                      >
+                        About More
+                      </Button>
                     </Link>
                   </div>
                 </div>

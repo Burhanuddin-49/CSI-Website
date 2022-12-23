@@ -40,7 +40,8 @@
   padding: 24px 0;
 }
 
-.event-card-body h2, p {
+.event-card-body h2,
+p {
   text-align: center;
 }
 
@@ -112,6 +113,12 @@
 
 .card:hover .info {
   opacity: 1;
+}
+
+.event-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 @media screen and (max-width: 576px) {

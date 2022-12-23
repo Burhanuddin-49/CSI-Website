@@ -3,6 +3,8 @@ import "./EventCard.css";
 import img1 from "../../assets/coderscarnival.jpg";
 import img2 from "../../assets/innotech.jpg.png";
 import img3 from "../../assets/acunetix9.jpg";
+import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const EventCard = () => {
   return (
@@ -20,27 +22,29 @@ const EventCard = () => {
         </p>
       </div>
       <div className="event-card-body">
-        <h2>Events held by us</h2>
+        <h2>Previous Events held by us</h2>
         <p>For the students and By the students</p>
         <div className="event-card">
           <div className="card">
             <img src={img1} className="card-img-top" alt="" />
-            {/* <div className="info">
-            <h5>Card title</h5>
-          </div> */}
           </div>
           <div className="card">
             <img src={img2} className="card-img-top" alt="" />
-            {/* <div className="info">
-            <h5>Card title</h5>
-          </div> */}
           </div>
           <div className="card">
             <img src={img3} className="card-img-top" alt="" />
-            {/* <div className="info">
-            <h5>Card title</h5>
-          </div> */}
           </div>
+        </div>
+        <div className="event-btn">
+          <Link to="/event">
+            <Button
+              variant="contained"
+              // href="/event"
+              style={{ background: "#3c618a" }}
+            >
+              Check more event
+            </Button>
+          </Link>
         </div>
       </div>
       <div className="free-space"></div>
