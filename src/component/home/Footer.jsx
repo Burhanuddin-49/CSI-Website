@@ -8,6 +8,7 @@ import {
   LinkedIn,
   Telegram,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,9 +19,9 @@ const Footer = () => {
             <div className="col-xl-4 col-lg-4 mb-50">
               <div className="footer-widget">
                 <div className="footer-logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src={logo} className="img-fluid" alt="logo" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="footer-text">
                   <p>
@@ -32,16 +33,22 @@ const Footer = () => {
                 </div>
                 <div className="footer-social-icon">
                   <span>Follow us</span>
-                  <a href="#">
+                  <a href="https://www.instagram.com/csidit/">
                     <Instagram className="icon-bg" />
                   </a>
-                  <a target="_blank" href="#">
-                    <Facebook className="icon-bg" />
-                  </a>
-                  <a target="_blank" href="#">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/computer-society-of-india-dit/mycompany/"
+                  >
                     <LinkedIn className="icon-bg" />
                   </a>
-                  <a target="_blank" href="#">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/csiditofficial/?ref=br_rs"
+                  >
+                    <Facebook className="icon-bg" />
+                  </a>
+                  <a target="_blank" href="/">
                     <Email className="icon-bg" />
                   </a>
                 </div>
@@ -54,25 +61,22 @@ const Footer = () => {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <a href="#">Events</a>
+                    <Link to="/event">Events</Link>
                   </li>
                   <li>
-                    <a href="#">Blogs</a>
+                    <Link to="/blog">Blogs</Link>
                   </li>
                   <li>
-                    <a href="#">Members</a>
+                    <Link to="/member">Members</Link>
                   </li>
                   <li>
-                    <a href="#">About Us</a>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
-                    <a href="#">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact us</a>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -89,7 +93,7 @@ const Footer = () => {
                   </p>
                 </div>
                 <div className="subscribe-form">
-                  <form action="#">
+                  <form action="/">
                     <input type="text" placeholder="Email Address" />
                     <button>
                       <Telegram className="icon-bg" />

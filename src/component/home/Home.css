@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; */
-  /* backdrop-filter: blur(30px); */
+  backdrop-filter: blur(30px);
   color: #fff;
 }
 

@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 import EventCard from "./EventCard";
 import Footer from "./Footer";
 import "./Home.css";
+import NumberCounting from "./NumberCounting";
+import h1 from "../../assets/h1.jpg";
+import h2 from "../../assets/h2.jpg";
+import h3 from "../../assets/h3.jpg";
+import h4 from "../../assets/h4.jpg";
 
 const Home = () => {
   return (
@@ -116,7 +121,7 @@ const Home = () => {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
-                    src="https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/75a1d2b5-fde9-4680-b46b-6d20cd41edf4"
+                    src={h1}
                     className="d-block w-100"
                     data-interval="2000"
                     alt="..."
@@ -124,7 +129,7 @@ const Home = () => {
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="https://m.media-amazon.com/images/I/71LXZS7hBqL._AC_UL320_.jpg"
+                    src={h2}
                     className="d-block w-100"
                     data-interval="2000"
                     alt="..."
@@ -132,7 +137,15 @@ const Home = () => {
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="https://ichef.bbci.co.uk/news/800/cpsprodpb/BEC3/production/_122953884_photo24-01-2022113902.jpg"
+                    src={h3}
+                    className="d-block w-100"
+                    data-interval="2000"
+                    alt="..."
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src={h4}
                     className="d-block w-100"
                     data-interval="2000"
                     alt="..."
@@ -232,6 +245,7 @@ const Home = () => {
         </div>
         <div className="free-space"></div>
       </div>
+      <NumberCounting />
       <EventCard />
       <Footer />
     </div>
