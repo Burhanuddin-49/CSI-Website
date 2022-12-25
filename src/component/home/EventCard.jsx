@@ -42,7 +42,7 @@ const EventCard = () => {
               // href="/event"
               style={{ background: "#3c618a" }}
             >
-              Check more event
+              Checkout more event
             </Button>
           </Link>
         </div>

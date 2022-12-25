@@ -24,7 +24,7 @@ const Event = () => {
       <div className="event-card-body">
         <h2>Previous Events held by us</h2>
         <p>For the students and By the students</p>
-        <div className="event-card">
+        <div className="event-card event-page-card">
           <div className="card">
             <img src={img1} className="card-img-top" alt="" />
           </div>
@@ -35,16 +35,27 @@ const Event = () => {
             <img src={img3} className="card-img-top" alt="" />
           </div>
         </div>
-        <div className="event-btn">
-          <Link to="/event">
-            <Button
-              variant="contained"
-              // href="/event"
-              style={{ background: "#3c618a" }}
-            >
-              Check more event
-            </Button>
-          </Link>
+        <div className="event-card event-page-card">
+          <div className="card">
+            <img src={img1} className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src={img2} className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src={img3} className="card-img-top" alt="" />
+          </div>
+        </div>
+        <div className="event-card event-page-card">
+          <div className="card">
+            <img src={img1} className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src={img2} className="card-img-top" alt="" />
+          </div>
+          <div className="card">
+            <img src={img3} className="card-img-top" alt="" />
+          </div>
         </div>
       </div>
       <div className="free-space"></div>
