@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./component/about/About";
+import ArticleDetails from "./component/blog/ArticleDetails";
 import Blog from "./component/blog/Blog";
 import Contact from "./component/contact/Contact";
 import Event from "./component/event/Event";
@@ -18,6 +19,7 @@ function App() {
           <Route path="event" element={<Event />} />
           <Route path="member" element={<Member />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="Article" element={<ArticleDetails />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
