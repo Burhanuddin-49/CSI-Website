@@ -1,5 +1,10 @@
 .event {
-  background-color: #3c618a;
+  background: linear-gradient(
+    53deg,
+    rgba(60, 97, 138, 1) 0%,
+    rgba(58, 81, 107, 1) 55%,
+    rgba(30, 60, 100, 1) 100%
+  );
   /* color: #1e3c64; */
 }
 
@@ -40,8 +45,10 @@
   padding: 24px 0;
 }
 
-.event-card-body h2,
-p {
+.event-card-body h2 {
+  text-align: center;
+}
+.event-card-body p {
   text-align: center;
 }
 

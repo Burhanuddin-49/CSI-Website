@@ -75,9 +75,6 @@ const Footer = () => {
                   <li>
                     <Link to="/about">About Us</Link>
                   </li>
-                  <li>
-                    <Link to="/contact">Contact Us</Link>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -120,7 +117,7 @@ const Footer = () => {
       </div>
       <div className="copyright-area">
         <div className="container">
-          <div className="text-center text-lg-left">
+          <div className="text-center text-lg">
             <div className="copyright-text">
               <p>Copyright &copy; 2023, All Right Reserved</p>
             </div>

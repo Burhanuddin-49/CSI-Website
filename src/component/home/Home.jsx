@@ -3,13 +3,15 @@ import { Button } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import EventCard from "./EventCard";
-import Footer from "./Footer";
+import Footer from "../Footer/Footer";
+import HomeCreative from "./Home-creative";
 import "./Home.css";
 import NumberCounting from "./NumberCounting";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home-page">
+      {/* <HomeCreative /> */}
       <h3 className="text-center pt-5 mb-5">
         Welcome to Computer Society of India, DIT Chapter
       </h3>
@@ -33,13 +35,8 @@ const Home = () => {
                       Technology. It was started on 6 March 1965 by few computer
                       professionals.
                     </p>
-                    <Link className="home-link" to="/blog">
-                      <Button
-                        variant="contained"
-                        style={{ background: "#000" }}
-                      >
-                        Blog
-                      </Button>
+                    <Link className="home__button" to="/blog">
+                      Blog
                     </Link>
                   </div>
                 </div>
@@ -58,13 +55,8 @@ const Home = () => {
                       conferences, symposium, quiz competition, project
                       competition and many more.
                     </p>
-                    <Link className="home-link" to="/about">
-                      <Button
-                        variant="contained"
-                        style={{ background: "#000" }}
-                      >
-                        About More
-                      </Button>
+                    <Link className="home__button" to="/blog">
+                      About More
                     </Link>
                   </div>
                 </div>
@@ -95,13 +87,8 @@ const Home = () => {
                         academicians.
                       </li>
                     </ul>
-                    <Link className="home-link" to="/about">
-                      <Button
-                        variant="contained"
-                        style={{ background: "#000" }}
-                      >
-                        About More
-                      </Button>
+                    <Link className="home__button" to="/blog">
+                      About More
                     </Link>
                   </div>
                 </div>
@@ -251,7 +238,6 @@ const Home = () => {
       </div>
       <NumberCounting />
       <EventCard />
-      <Footer />
     </div>
   );
 };
