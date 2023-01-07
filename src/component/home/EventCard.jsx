@@ -12,7 +12,7 @@ const EventCard = () => {
       <div className="event-header">
         <h1>Events</h1>
       </div>
-      <div className="upcoming-event">
+      <div className="upcoming-event" data-aos="zoom-in">
         <h1>Upcoming Events</h1>
         <h2>Acunetix 10.0</h2>
         <p>
@@ -25,13 +25,13 @@ const EventCard = () => {
         <h2>Previous Events held by us</h2>
         <p>For the students and By the students</p>
         <div className="event-card">
-          <div className="card">
+          <div className="card" data-aos="flip-down">
             <img src={img1} className="card-img-top" alt="" />
           </div>
-          <div className="card">
+          <div className="card" data-aos="flip-down">
             <img src={img2} className="card-img-top" alt="" />
           </div>
-          <div className="card">
+          <div className="card" data-aos="flip-down">
             <img src={img3} className="card-img-top" alt="" />
           </div>
         </div>

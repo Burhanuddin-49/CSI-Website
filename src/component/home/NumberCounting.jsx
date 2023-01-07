@@ -23,7 +23,7 @@ const NumberCounting = () => {
     <>
     <h1 className="Number-overview">Overview</h1>
       <div className="Number-wrapper">
-        <div className="Number-container">
+        <div className="Number-container" data-aos="flip-left" data-aos-delay="50">
           <div className="Number-num">
             <span className="num" data-val="5">
               0
@@ -32,7 +32,7 @@ const NumberCounting = () => {
           </div>
           <p className="text">Participation</p>
         </div>
-        <div className="Number-container">
+        <div className="Number-container" data-aos="flip-left" data-aos-delay="300">
           <div className="Number-num">
             <span className="num" data-val="100">
               000
@@ -41,7 +41,7 @@ const NumberCounting = () => {
           </div>
           <p className="text">Sponsors</p>
         </div>
-        <div className="Number-container">
+        <div className="Number-container" data-aos="flip-left" data-aos-delay="700">
           <div className="Number-num">
             <span className="num" data-val="50">
               000
@@ -50,7 +50,7 @@ const NumberCounting = () => {
           </div>
           <p className="text">Events</p>
         </div>
-        <div className="Number-container">
+        <div className="Number-container" data-aos="flip-left" data-aos-delay="1000">
           <div className="Number-num">
             <span className="num" data-val="500">
               000

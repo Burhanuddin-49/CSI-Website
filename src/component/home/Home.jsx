@@ -1,18 +1,26 @@
 import { Devices } from "@mui/icons-material";
-import { Button } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import EventCard from "./EventCard";
-import Footer from "../Footer/Footer";
-import HomeCreative from "./Home-creative";
+// import HomeCreative from "./Home-creative";
 import "./Home.css";
 import NumberCounting from "./NumberCounting";
 
 const Home = () => {
   return (
-    <div className="home-page">
-      {/* <HomeCreative /> */}
-      <h3 className="text-center pt-5 mb-5">
+    <div
+      className="home-page"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
+      ̥{/* <HomeCreative /> */}̥
+      <h3 className="text-center pt-5 mb-5 ">
         Welcome to Computer Society of India, DIT Chapter
       </h3>
       <div className="container-fluid py-4 p-sm-5 overview">
@@ -25,7 +33,7 @@ const Home = () => {
             >
               <div className="carousel-inner diff">
                 <div className="carousel-item active">
-                  <div className="d-block w-100" data-interval="4000" alt="...">
+                  <div className="d-block w-100" data-interval="3000" alt="...">
                     <h1>What is CSI ?</h1>
                     <p className="slider-p">
                       Computer Society of India (CSI) is a body where computer
@@ -41,7 +49,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <div className="d-block w-100" data-interval="4000" alt="...">
+                  <div className="d-block w-100" data-interval="3000" alt="...">
                     <h1>Overview of CSI</h1>
                     <p className="slider-p">
                       CSI is the oldest & largest organization of IT
@@ -61,7 +69,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <div className="d-block w-100" data-interval="4000" alt="...">
+                  <div className="d-block w-100" data-interval="3000" alt="...">
                     <h1>CSI Mission</h1>
                     <ul className="list">
                       <li>
@@ -177,7 +185,7 @@ const Home = () => {
         </div>
         <div className="wrapper">
           <div className="center-line"></div>
-          <div className="row row-1">
+          <div className="row row-1" data-aos="fade-right">
             <section>
               <div className="icon">
                 <Devices />
@@ -191,7 +199,7 @@ const Home = () => {
               </p>
             </section>
           </div>
-          <div className="row row-2">
+          <div className="row row-2" data-aos="fade-left">
             <section>
               <div className="icon">
                 <Devices />
@@ -205,7 +213,7 @@ const Home = () => {
               </p>
             </section>
           </div>
-          <div className="row row-1">
+          <div className="row row-1" data-aos="fade-right">
             <section>
               <div className="icon">
                 <Devices />
@@ -219,7 +227,7 @@ const Home = () => {
               </p>
             </section>
           </div>
-          <div className="row row-2">
+          <div className="row row-2" data-aos="fade-left">
             <section>
               <div className="icon">
                 <Devices />

@@ -7,6 +7,10 @@
   color: #fff;
 }
 
+.animate__animated.animate__bounceInLeft {
+  --animate-duration: 3s;
+}
+
 .overview {
   background: linear-gradient(
     53deg,
@@ -32,7 +36,7 @@
 .home__button {
   margin-top: 2rem;
   display: inline-block;
-  background-color: var(--text-color);
+  background: hsl(38, 8%, 8%);
   color: #fff;
   padding: 0.8rem 1.5rem;
   border-radius: 3rem;

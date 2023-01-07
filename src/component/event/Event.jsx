@@ -2,13 +2,22 @@ import React from "react";
 import img1 from "../../assets/coderscarnival.jpg";
 import img2 from "../../assets/innotech.jpg.png";
 import img3 from "../../assets/acunetix9.jpg";
-import { Button } from "@mui/material";
-import { Link } from "react-router-dom";
-import './Event.css'
+import "./Event.css";
 
 const Event = () => {
   return (
-    <div className="event-page">
+    <div
+      className="event-page"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
+      ̥̥
       <div className="event-header">
         <h1>Events</h1>
       </div>
