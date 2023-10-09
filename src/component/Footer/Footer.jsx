@@ -91,11 +91,12 @@ const Footer = () => {
                 </div>
                 <div className="subscribe-form">
                   <form action="/">
-                    <input type="text" placeholder="Email Address" />
+                    <input type="email" name="Email" placeholder="Email Address" />
                     <button>
                       <Telegram className="icon-bg" />
                     </button>
                   </form>
+                  <span>Thanks You For Subscribing!</span>
                 </div>
                 <div className="created-website">
                   <p>

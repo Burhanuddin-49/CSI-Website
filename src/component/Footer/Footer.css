@@ -131,6 +131,11 @@ ul {
   font-size: 22px;
   transform: rotate(-6deg);
 }
+.subscribe-form span {
+  color: #5f7892;
+  margin-top: 10px;
+  display: block;
+}
 .copyright-area {
   background: #202020;
   padding: 25px 0;
